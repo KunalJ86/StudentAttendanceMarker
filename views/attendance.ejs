@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Attendance</title>
+    <style>
+      h1,
+      h2,
+      .date,
+      .submit {
+        display: block;
+        text-align: center;
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      }
+      .date {
+        padding-bottom: 20px;
+      }
+      body {
+        background-color: antiquewhite;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Attendance</h1>
+    <h2>Mark Attendance</h2>
+    <form action="/attendance" method="post">
+      <div class="date">
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date" />
+      </div>
+      <div class="submit">
+        <input type="submit" value="Mark Attendance" />
+      </div>
+   
+  </body>
+</html>
